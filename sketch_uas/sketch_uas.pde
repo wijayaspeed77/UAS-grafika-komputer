@@ -36,9 +36,14 @@ void draw(){
     fill(#573400);
     rect (-10,250,900,200);
     
+    //sawah
+    fill(#36bf48);
+    rect (-10,450,900,200);
+    
     //air terjun
     fill(#80eeff);
-    quad (300, 250, 400, 250, 500, 450, 250, 450);
+    quad (300, 250, 400, 250, 420, 450, 290, 450);
+    quad (290, 450, 420, 450, 600, 600, 100, 600);
     
      
     //pohon
@@ -81,3 +86,8 @@ void draw(){
     ellipse(240,-150,70,35);
    
 }
+
+//UAS Grafika Komputer
+//Nama : Eko Suyanto
+//NIM : 181004410080
+//PRODI : TI A
