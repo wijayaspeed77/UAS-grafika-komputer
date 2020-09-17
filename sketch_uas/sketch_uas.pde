@@ -22,14 +22,23 @@ void draw(){
     line(l,l,width-1,l);
     }
     
+    //matahari
+    fill(#ffffff);
+    ellipse(300,70,100,100);
+    
     
     //gunung
+    fill(#00571d);
     triangle (-100, 250, 200, 50, 600, 250);
     triangle ( 250, 250, 650, 50, 1000, 250);
     
     //lembah
     fill(#573400);
     rect (-10,250,900,200);
+    
+    //air terjun
+    fill(#80eeff);
+    quad (300, 250, 400, 250, 500, 450, 250, 450);
     
      
     //pohon
@@ -51,9 +60,7 @@ void draw(){
     endShape();
     stroke(0);
      
-    //matahari
-    fill(#ffffff);
-    ellipse(300,70,100,100);
+
     
     //awan
       y = y + 1;
