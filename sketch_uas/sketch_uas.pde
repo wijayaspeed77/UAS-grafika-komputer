@@ -8,7 +8,7 @@ void setup(){
 void draw(){
   int d;
   d=second();
-    background(255);
+    background(255, 255, 255);
     noFill();
     int i,j,k,
     i1=105,j1=5,k1=255,
@@ -21,14 +21,16 @@ void draw(){
     line(l,height-1,l,l);
     line(l,l,width-1,l);
     }
-     //fill(#403E1E);
-     //ellipse(850,650,700,700);
-     //ellipse(240,550,700,700);
-     // fill(#0511E0);
-     //ellipse(300,650,650,350);
-    // ellipse(450,500,70,350);
-    // ellipse(400,500,70,350);
-    // ellipse(500,500,70,350);
+    
+    
+    //gunung
+    triangle (-100, 250, 200, 50, 600, 250);
+    triangle ( 250, 250, 650, 50, 1000, 250);
+    
+    //lembah
+    fill(#573400);
+    rect (-10,250,900,200);
+    
      
     //pohon
     fill(235,186,84);
@@ -50,8 +52,8 @@ void draw(){
     stroke(0);
      
     //matahari
-    fill(#FCFCFA);
-    ellipse(700,70,100,100);
+    fill(#ffffff);
+    ellipse(300,70,100,100);
     
     //awan
       y = y + 1;
